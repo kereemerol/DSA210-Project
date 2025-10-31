@@ -1,2 +1,2 @@
-# DSA210-Project
-DSA210-Project
+Project Proposal
+The film industry represents the reflection of social, cultural and economical dynamics of the community across time. In this project of mine, I will aim to analyze how box office statistics changed over the years within enhancing film industry, and what factors (such as release year, genres, the total budget invested in the movie, IMDb ratings, the cast of the movie) influenced the overall success of movies.
