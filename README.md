@@ -12,3 +12,5 @@ The Datas that will be used
 - The cast of the movie
 
 Data Collection
+
+For the datas, i will utilize publicly available and open datasets from sources such as Box Office Mojo, The Numbers, IMDb. These websites can provide me  the datas i would need for my project including release year, genres, the total budget invested in the movie, ratings, revenues.
