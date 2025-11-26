@@ -5,18 +5,24 @@ The movie industry represents the reflection of social, cultural and economical 
 
 
 Research Question
+
 How the factors such as budget, cast of the movie, IMDb ratings and genre best determines the movie's box office overall success in terms of total revenue?
 
 Datas and Sources
 
 For ratings, genres, cast, crew --> https://datasets.imdbws.com
+
 For budget + worldwide box office --> https://www.the-numbers.com/
+
 For revenue statistics --> https://www.boxofficemojo.com
+
 For enrichment source - cast popularity --> https://developers.themoviedb.org/3
 
 
 Data Collection
 
 Download IMDb TSV datasets
+
 Scrape The Numbers budget + box office values using Python
+
 Query TMDb API to obtain cast popularity features for each film.
