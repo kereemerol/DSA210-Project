@@ -18,6 +18,8 @@ For budget + worldwide box office --> https://www.the-numbers.com/
 
 For revenue statistics --> https://www.boxofficemojo.com
 
+
+
 For enrichment source - cast popularity --> https://developers.themoviedb.org/3
 
 
@@ -37,3 +39,6 @@ Year = 1995-2024
 Only consist of movies.
 Movies for adults.
 Having 1000 or more vote in IMDb.
+
+
+Until 30th of November, i have collected datas related to genres, IMDb ratings and budget and merged them into one table. I also did some EDA on the last excel document which has revenues.I applied two hypothesis tests on it. After the deadline i will complete the table with cast popularity features and see how does that affect the box office revenues.
