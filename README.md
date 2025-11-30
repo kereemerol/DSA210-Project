@@ -29,3 +29,11 @@ Download IMDb TSV datasets
 Scrape The Numbers budget + box office values using Python
 
 Query TMDb API to obtain cast popularity features for each film.
+
+
+FILTERS - Does the data consist of what?
+
+Year = 1995-2024
+Only consist of movies.
+Movies for adults.
+Having 1000 or more vote in IMDb.
