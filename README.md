@@ -3,7 +3,7 @@
 
 ## Project Proposal
 
-The movie industry represents the reflection of social, cultural and economical dynamics of the community across time. In this project of mine, I will aim to analyze how box office statistics changed over the years within enhancing film industry, and what factors (such as title, release year, genres, the total budget invested in the movie, IMDb ratings, the cast of the movie) influenced the overall success of movies.
+The movie industry represents the reflection of social, cultural and economical dynamics of the community across time. In this project, we will aim to analyze how box office statistics changed over the years within enhancing film industry, and what factors (such as title, release year, genres, the total budget invested in the movie, IMDb ratings, the cast of the movie) influenced the overall success of movies.
 
 
 
@@ -20,8 +20,6 @@ For ratings, genres, cast, crew --> https://datasets.imdbws.com
 For budget + worldwide box office --> https://www.the-numbers.com/
 
 For revenue statistics --> https://www.boxofficemojo.com
-
-
 
 For enrichment source - cast popularity --> https://developers.themoviedb.org/3
 
@@ -43,5 +41,9 @@ Only consist of movies.
 Movies for adults.
 Having 1000 or more vote in IMDb.
 
+## Until 30th of November
+Until 30th of November, we have collected datas related to genres, IMDb ratings and budget and merged them into one table. I also did some EDA on the last excel document which has revenues.I applied two hypothesis tests on it. After the deadline, it is planned that it will be completed as the table in addition of cast popularity features and see how does that affect the box office revenues.
 
-Until 30th of November, i have collected datas related to genres, IMDb ratings and budget and merged them into one table. I also did some EDA on the last excel document which has revenues.I applied two hypothesis tests on it. After the deadline i will complete the table with cast popularity features and see how does that affect the box office revenues.
+## Until 2nd of January
+
+The current and the final dataset has been set as weenriched it with the addition of cast popularity features.
