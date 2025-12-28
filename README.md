@@ -1,5 +1,8 @@
 # Movie Box Office Success Analysis
 
+
+## Project Proposal
+
 The movie industry represents the reflection of social, cultural and economical dynamics of the community across time. In this project of mine, I will aim to analyze how box office statistics changed over the years within enhancing film industry, and what factors (such as title, release year, genres, the total budget invested in the movie, IMDb ratings, the cast of the movie) influenced the overall success of movies.
 
 
@@ -10,7 +13,7 @@ How the factors such as budget, cast of the movie, IMDb ratings and genre best d
 
 
 
-Datas and Sources
+## Datas and Sources
 
 For ratings, genres, cast, crew --> https://datasets.imdbws.com
 
@@ -24,7 +27,7 @@ For enrichment source - cast popularity --> https://developers.themoviedb.org/3
 
 
 
-Data Collection
+## Data Collection
 
 Download IMDb TSV datasets
 
@@ -33,7 +36,7 @@ Scrape The Numbers budget + box office values using Python
 Query TMDb API to obtain cast popularity features for each film.
 
 
-FILTERS - Does the data consist of what?
+## FILTERS - Does the data consist of what?
 
 Year = 1995-2024
 Only consist of movies.
