@@ -28,7 +28,9 @@ For budget + worldwide box office(gross) --> https://www.the-numbers.com/
 ## Data Collection
 
 From datasets.imdbws.com, we downloaded title.basics.tsv.gz and title.ratings.tsv.gz in order to reach rating, genre, runtime etc..
+
 We scraped The Numbers budget + box office values using Python.
+
 The previous dataset has been enriched with gross and budget stats so as to analyze the factors which are having profound effect on box office revenues.
 
 
