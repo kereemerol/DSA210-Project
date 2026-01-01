@@ -15,11 +15,11 @@ How the factors such as budget, cast of the movie, IMDb ratings and genre best d
 
 ## Datas and Sources
 
-For ratings, genres, cast, crew --> https://datasets.imdbws.com
+For names, id, ratings, genres, runtime, released year --> https://datasets.imdbws.com
 
-For budget + worldwide box office --> https://www.the-numbers.com/
+For budget + worldwide box office(gross) --> https://www.the-numbers.com/
 
-For revenue statistics --> https://www.boxofficemojo.com
+
 
 
 
@@ -27,9 +27,9 @@ For revenue statistics --> https://www.boxofficemojo.com
 
 ## Data Collection
 
-Download IMDb TSV datasets
-
-Scrape The Numbers budget + box office values using Python
+From datasets.imdbws.com, we downloaded title.basics.tsv.gz and title.ratings.tsv.gz in order to reach rating, genre, runtime etc..
+We scraped The Numbers budget + box office values using Python.
+The previous dataset has been enriched with gross and budget stats so as to analyze the factors which are having profound effect on box office revenues.
 
 
 
