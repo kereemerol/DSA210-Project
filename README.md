@@ -46,4 +46,4 @@ Until 30th of November, we have collected datas related to genres, IMDb ratings 
 
 ## Until 2nd of January
 
-The current and the final dataset has been set as weenriched it with the addition of cast popularity features.
+The current and the final dataset has been set as it is enriched with the addition of cast popularity features.
