@@ -44,7 +44,16 @@ Movies for adults.
 Having 1000 or more vote in IMDb.
 
 ## Until 30th of November
-Until 30th of November, we have collected datas related to genres, IMDb ratings and budget and merged them into one table. I also did some EDA on the last excel document which has revenues. I applied two hypothesis tests on it. 
+
+By the end of November, the primary focus of the project was data collection, preprocessing, and exploratory data analysis. IMDb datasets were downloaded from datasets.imdbws.com, specifically title.basics.tsv.gz and title.ratings.tsv.gz, in order to obtain movie-level information such as titles, release years, runtimes, genres, IMDb ratings, and vote counts.
+
+In addition to IMDb metadata, production budget and worldwide box office gross revenue data were collected from The Numbers website using Python-based web scraping techniques. These financial variables were then merged with the IMDb datasets using movie titles and release years, resulting in a consolidated dataset that combines both movie characteristics and box office performance indicators.
 
 ## Until 2nd of January
+In this stage of the project, machine learning techniques were applied to the finalized dataset in order to analyze and predict movie box office performance. The dataset included production budget, IMDb rating, IMDb vote count, release year, and worldwide box office gross revenue. Prior to modeling, the data was cleaned by removing missing and non-positive values, and logarithmic transformations were applied to highly skewed variables such as budget, revenue, and vote count.
 
+## REPORT
+
+A Linear Regression model was first implemented as a baseline approach. The model achieved an R² score of approximately 0.61, indicating a strong linear relationship between the selected predictors and box office revenue. The results suggest that production budget and audience engagement play a significant role in explaining box office success.
+
+To capture potential non-linear relationships, a Random Forest Regression model was also applied. Although the Random Forest model did not outperform the linear model in terms of R², it provided valuable insights through feature importance analysis. The results showed that IMDb vote count (audience engagement) was the most influential predictor, followed by production budget, while IMDb rating and release year contributed smaller but positive effects.
