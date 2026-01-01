@@ -9,7 +9,7 @@ The movie industry represents the reflection of social, cultural and economical 
 
 ## Research Question
 
-How the factors such as budget, cast of the movie, IMDb ratings and genre best determines the movie's box office overall success in terms of total revenue?
+How the factors such as budget, runtime, IMDb ratings and genre best determines the movie's box office overall success in terms of total revenue?
 
 
 
