@@ -23,8 +23,6 @@ For budget + worldwide box office(gross) --> https://www.the-numbers.com/
 
 
 
-
-
 ## Data Collection
 
 From datasets.imdbws.com, we downloaded title.basics.tsv.gz and title.ratings.tsv.gz in order to reach rating, genre, runtime etc..
@@ -55,7 +53,7 @@ Each explanatory variable in the dataset was individually examined in relation t
 In addition to IMDb metadata, production budget and worldwide box office gross revenue data were collected from The Numbers website using Python-based web scraping techniques. These financial variables were then merged with the IMDb datasets using movie titles and release years, resulting in a consolidated dataset that combines both movie characteristics and box office performance indicators.
 
 ## Until 2nd of January
-In this stage of the project, machine learning techniques were applied to the finalized dataset in order to analyze and predict movie box office performance. The dataset included production budget, IMDb rating, IMDb vote count, release year, and worldwide box office gross revenue. Prior to modeling, the data was cleaned by removing missing and non-positive values, and logarithmic transformations were applied to highly skewed variables such as budget, revenue, and vote count. I also added explanations of which code is written for what purposes. There are four code document in the final stage of this project as each of them serves for different goals.
+In this stage of the project, machine learning techniques were applied to the finalized dataset in order to analyze and predict movie box office performance. The dataset included production budget, IMDb rating, IMDb vote count, release year, and worldwide box office gross revenue. Prior to modeling, the data was cleaned by removing missing and non-positive values, and logarithmic transformations were applied to highly skewed variables such as budget, revenue, and vote count. I also added explanations of which code is written for what purposes. There are four code document in the final stage of this project as each of them serves for different goals. I did not deleted the previous codes when i added explanation of codes. I installed the updated code. Should i delete the previous ones? Can you indicate in the feedback? Thanks in advance.
 
 ## REPORT
 
