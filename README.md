@@ -50,10 +50,12 @@ Having 1000 or more vote in IMDb.
 
 By the end of November, the primary focus of the project was data collection, preprocessing, and exploratory data analysis. IMDb datasets were downloaded from datasets.imdbws.com, specifically title.basics.tsv.gz and title.ratings.tsv.gz, in order to obtain movie-level information such as titles, release years, runtimes, genres, IMDb ratings, and vote counts.
 
+Each explanatory variable in the dataset was individually examined in relation to worldwide box office gross revenue. Descriptive statistics and visualizations were used to assess the distributional properties of the variables and to identify potential relationships with revenue. Correlation coefficients were calculated to measure the strength and direction of associations between gross revenue and key factors such as production budget, IMDb rating, audience engagement (IMDb vote count), runtime, and release year.
+
 In addition to IMDb metadata, production budget and worldwide box office gross revenue data were collected from The Numbers website using Python-based web scraping techniques. These financial variables were then merged with the IMDb datasets using movie titles and release years, resulting in a consolidated dataset that combines both movie characteristics and box office performance indicators.
 
 ## Until 2nd of January
-In this stage of the project, machine learning techniques were applied to the finalized dataset in order to analyze and predict movie box office performance. The dataset included production budget, IMDb rating, IMDb vote count, release year, and worldwide box office gross revenue. Prior to modeling, the data was cleaned by removing missing and non-positive values, and logarithmic transformations were applied to highly skewed variables such as budget, revenue, and vote count.
+In this stage of the project, machine learning techniques were applied to the finalized dataset in order to analyze and predict movie box office performance. The dataset included production budget, IMDb rating, IMDb vote count, release year, and worldwide box office gross revenue. Prior to modeling, the data was cleaned by removing missing and non-positive values, and logarithmic transformations were applied to highly skewed variables such as budget, revenue, and vote count. I also added explanations of which code is written for what purposes. There are four code document in the final stage of this project as each of them serves for different goals.
 
 ## REPORT
 
