@@ -39,8 +39,11 @@ The previous dataset has been enriched with gross and budget stats so as to anal
 ## FILTERS - Does the data consist of what?
 
 Year = 1995-2024
+
 Only consist of movies.
-Movies for adults.
+
+Movies for non-adults.
+
 Having 1000 or more vote in IMDb.
 
 ## Until 30th of November
